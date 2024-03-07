@@ -24,7 +24,7 @@ Ensure that Ruby is installed on your system. If not, you can find installation 
 Clone the project to your local machine and navigate into its directory:
 
 ```sh
-git clone https://your-repository-url/turbo-hotwire-sinatra.git
+git clone git@github.com:pacharya92/turbo-hotwire-sinatra.git
 cd turbo-hotwire-sinatra
 ```
 
