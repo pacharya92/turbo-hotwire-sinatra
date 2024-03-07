@@ -48,8 +48,8 @@ This command launches a local server, typically accessible at http://localhost:4
 Access the application by visiting http://localhost:4567 in your web browser. Test the live demo: submit your name and email in the subscription form to see the real-time, JavaScript-minimal interaction facilitated by Turbo Streams.
 
 ## File Structure
-* app.rb: Main application file defining Sinatra routes and actions.
-* views/index.erb: Homepage HTML template.
-* views/subscribe.erb: Template for Turbo Streams, enabling real-time DOM updates.
-* public/: (Optional) Directory for static assets like CSS or JavaScript, not included in this minimal setup but can be added as needed.
+* `app.rb`: Main application file defining Sinatra routes and actions.
+* `views/index.erb`: Homepage HTML template.
+* `views/subscribe.erb`: Template for Turbo Streams, enabling real-time DOM updates.
+* `public/`: (Optional) Directory for static assets like CSS or JavaScript, not included in this minimal setup but can be added as needed.
 
