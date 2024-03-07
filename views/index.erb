@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
+  <script type="module">
+    import * as Turbo from 'https://cdn.skypack.dev/@hotwired/turbo@7.3.0';
+  </script>
+  <title>Wireframe</title>
+</head>
+
+
+<body>
+  <header>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/contact">Contact</a>
+      <a href="/about">About</a>
+    </nav>
+
+    <h1>Learn Hotwire</h1>
+
+    <p>Yes, you can really use Hotwire without Rails. Give it a try!</p>
+  </header>
+  <main>
+
+    <div style="color: green; text-align: center;">
+      <div id="subscriber-notification"></div>
+    </div>
+
+    <div style="width: 50%; margin: 2em auto; float: left;">
+      <div id="newsletter">
+        <form action="/subscribe" method="post">
+          <div>
+            <input type="text" name="name" id="name" placeholder="Enter your name" />
+          </div>
+
+          <br />
+
+          <div>
+            <input type="email" name="email" id="email" placeholder="Enter your email" />
+          </div>
+
+          <br />
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
+    </div>
+
+    <div style="width: 50%; margin: 0 auto; float: right;">
+      <h4>Subscriber List</h4>
+      <ul id="subscriber-list">
+        <li>Yukihiro 'Matz' Matsumoto</li>
+      </ul>
+    </div>
+
+  </main>
+</body>
+</html>
